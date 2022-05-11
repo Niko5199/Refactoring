@@ -1,10 +1,10 @@
-const Reader = require('../../lib/utils/Reader');
-const fs = require('fs');
+const Reader = require("../../lib/utils/Reader");
+const fs = require("fs");
 
-describe('Tests only Reader', () => {
-  test('List of Explorers Fyle System Node', () => {
-    const explorers = Reader.readJsonFile('explorers.json');
-    const exploFS = fs.readFileSync('explorers.json');
-    expect(explorers).toStrictEqual(JSON.parse(exploFS));
-  });
+describe("Tests only Reader", () => {
+    test("List of Explorers Fyle System Node", () => {
+        const explorers = Reader.readJsonFile("explorers.json");
+        const exploFS = fs.readFileSync("explorers.json");
+        expect(explorers).toStrictEqual(JSON.parse(exploFS));
+    });
 });

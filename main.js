@@ -10,14 +10,14 @@ const nodeExplorers = ExplorerService.filterByMission(objExplorers, "node");
 console.log(nodeExplorers);
 
 const nodeAmountExplorers = ExplorerService.getAmountOfExplorersByMission(
-  objExplorers,
-  "node"
+    objExplorers,
+    "node"
 );
 console.log(nodeAmountExplorers);
 
 const userNamesgithub = ExplorerService.getExplorersUsernamesByMission(
-  objExplorers,
-  "node"
+    objExplorers,
+    "node"
 );
 console.log(userNamesgithub);
 
